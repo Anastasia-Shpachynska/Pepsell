@@ -47,7 +47,7 @@ public class ServerUI extends JFrame {
 
     public void updateTable(ArrayList<Statistic> statistics) {
         SwingUtilities.invokeLater(() -> {
-            ArrayList<Statistic> copyOfStatistics = new ArrayList<>(statistics); // Створюємо копію списку
+            ArrayList<Statistic> copyOfStatistics = new ArrayList<>(statistics);
 
             tableModel.setRowCount(0);
 
